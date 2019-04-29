@@ -61,19 +61,19 @@ Image Alignment的流程如下：
 
 ## Zoom in effect 
 
-* SURF
+#### SURF
 
-<div style="padding-left: 30px; padding-bottom: 30px;"><a href="https://youtu.be/DPRwJzxvCIc"> 影片連結 </a></div>
+<a href="https://youtu.be/DPRwJzxvCIc"> 影片連結 </a>
 
-* SURF with edge enhence and blur
+#### SURF with edge enhence and blur
 
-<div style="padding-left: 30px; padding-bottom: 30px;"><a href="https://youtu.be/aJSYeOXAsHQ"> 影片連結 </a></div>
+<a href="https://youtu.be/aJSYeOXAsHQ"> 影片連結 </a>
 
-* 完全使用Photoshop
+#### 完全使用Photoshop
 
-<div style="padding-left: 30px; padding-bottom: 30px;">總共使用七張連續的圖片，以對齊馬路上兩條紅線為主要目標，將每張圖都設為前一張長寬的0.7~0.8倍，而除了修改圖片的亮度與對比外，還將圖片間銜接處用羽化處理使接點較不明顯。</div>
+總共使用七張連續的圖片，以對齊馬路上兩條紅線為主要目標，將每張圖都設為前一張長寬的0.7~0.8倍，而除了修改圖片的亮度與對比外，還將圖片間銜接處用羽化處理使接點較不明顯。
 
-<div style="padding-left: 30px; padding-bottom: 30px;"><a href="https://youtu.be/VStJBSQnyOA"> 影片連結 </a></div>
+<a href="https://youtu.be/VStJBSQnyOA"> 影片連結 </a>
 
 
 
