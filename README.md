@@ -17,12 +17,14 @@ Homework 4 for CVFX, team 7.
 
 ## Feature Extraction and Matching Results between 2 Images
 
+這兩張圖是用ORB做feature extraction然後matching。這是前15%的結果，大概可以中間路的盡頭、路邊緣的紅線、盡頭上方的樹看出大致上是正確的。
+
 <img src="./img/orb.png">
 
 ## Perform image alignment and generate infinite zooming effect 
 ### Feature Extraction + Image Alignment
 Feature extraction的流程如下：
-1. 初使化一種feature detector
+1. 初使化一種feature detector。
 2. 用這個detector分別在兩張照片上找key points，detectAndCompute會回傳keypoints跟descriptors作為之後matching使用。
 3. BFMatcher是用來計算descriptor距離的，crossCheck設true是為了產生較好的結果。
 4. call bf.match()來產生兩張圖之間的matching的距離，並用遞增的方式排列，因為距離越小表示越接近。
