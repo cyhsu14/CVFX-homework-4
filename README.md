@@ -51,11 +51,13 @@ Image Alignment的流程如下：
 2. 將img1套上mask使它在所有changed_img對應的地方都變成零(黑色)。(使用bitwise_and)  
 3. 將img1和changed_img做OR運算，即可正確合併兩張圖。
 
-#### Comparison
+#### 結果與比較
 |項目|orb|sift|surf|
 |:--:|:--:|:--:|:--:|
 |沒處理|<img src="https://drive.google.com/uc?id=1-2fXbkWsF2WyoK8926mPrLkug9jSmjvN" width="400"/>|<img src="https://drive.google.com/uc?id=1-3ncAtcurDHl9__NOkEnHvyxBQFJRxHj" width="400"/>|<img src="https://drive.google.com/uc?id=1-5d-5mHxlUSDdLCxfXel1Xlt8tAl8Vcr" width="400"/>|
 |有edge enhence & blur|<img src="https://drive.google.com/uc?id=1--2dBB7Cvd3k5nZwwgCnlZjy21S7bYD_" width="400"/>|<img src="https://drive.google.com/uc?id=1-0Lvyi_LK3rqm24HOr2WVc8NJY1OwWvh" width="400"/>|<img src="https://drive.google.com/uc?id=1-2ZLUKKeEgWFCI_1KTlM0kTVMMJa1SqC" width="400"/>|
+
+
 
 ## Add some image processing to enhance effect. 
 
