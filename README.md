@@ -15,7 +15,7 @@ Homework 4 for CVFX, team 7.
 
 ## Feature Extraction and Matching Results between 2 Images
 
-<img>
+<img src="./img/orb.png">
 
 ## Perform image alignment and generate infinite zooming effect 
 ### Feature Extraction + Image Alignment
@@ -30,9 +30,9 @@ Feature extraction的流程如下：
 Image Alignment的流程如下：
 1. 找出這15%matches的位置存在np array裡。
 2. 求homography。同一平面上、不同視角的兩張圖片之及的關係可以用homography表示，homoprahy是一個3x3的矩陣。  
-令($x_1$, $y_1$), ($x_2$, $y_2$)分別是第一張與第二張圖對應的點。Homography的公式表示如下：  
+令 (x1, y1), (x2, y2)分別是第一張與第二張圖對應的點。Homography的公式表示如下：  
 
-<img>
+<img src="./img/formula.png">
 
 3. 有了homography之後，我們使用warpPerspective將遠景img2 match到近景img1上，可以看到這時候的圖會有一些黑色的部分，就是match後轉動視角的結果。
 
@@ -57,7 +57,7 @@ Image Alignment的流程如下：
 |沒處理|<img src="https://drive.google.com/uc?id=1-2fXbkWsF2WyoK8926mPrLkug9jSmjvN" width="400"/>|<img src="https://drive.google.com/uc?id=1-3ncAtcurDHl9__NOkEnHvyxBQFJRxHj" width="400"/>|<img src="https://drive.google.com/uc?id=1-5d-5mHxlUSDdLCxfXel1Xlt8tAl8Vcr" width="400"/>|
 |有edge enhence & blur|<img src="https://drive.google.com/uc?id=1--2dBB7Cvd3k5nZwwgCnlZjy21S7bYD_" width="400"/>|<img src="https://drive.google.com/uc?id=1-0Lvyi_LK3rqm24HOr2WVc8NJY1OwWvh" width="400"/>|<img src="https://drive.google.com/uc?id=1-2ZLUKKeEgWFCI_1KTlM0kTVMMJa1SqC" width="400"/>|
 
-### Zoom in
+## Add some image processing to enhance effect. You can use photoshop to do some effects, such as bluring or coloring. 
 
 * ORB with edge enhence and blur
 
@@ -66,10 +66,7 @@ Image Alignment的流程如下：
 * SURF with edge enhence and blur
 
 * 使用Photoshop
-
-https://youtu.be/ttrK8bg6ZZc
+<a href="https://youtu.be/ttrK8bg6ZZc"> 影片連結 </a>
 
 總共使用七張圖片，以對齊馬路上兩條紅線為主要目標，將每張圖都設為前一張長寬的0.7~0.8倍，而除了修改圖片的亮度與對比外，還將圖片間銜接處用羽化處理使接點較不明顯。
-
-## Add some image processing to enhance effect. You can use photoshop to do some effects, such as bluring or coloring. 
 
