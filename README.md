@@ -59,11 +59,15 @@ Image Alignment的流程如下：
 
 ## Zoom in effect 
 * SURF
+
 <a href="https://youtu.be/DPRwJzxvCIc"> 影片連結 </a>
 * SURF with edge enhence and blur
+
 <a href="https://youtu.be/aJSYeOXAsHQ"> 影片連結 </a>
 * 完全使用Photoshop
+
 總共使用七張連續的圖片，以對齊馬路上兩條紅線為主要目標，將每張圖都設為前一張長寬的0.7~0.8倍，而除了修改圖片的亮度與對比外，還將圖片間銜接處用羽化處理使接點較不明顯。
+
 <a href="https://youtu.be/VStJBSQnyOA"> 影片連結 </a>
 
 
