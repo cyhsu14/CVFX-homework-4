@@ -56,8 +56,8 @@ Image Alignment的流程如下：
 |:--:|:--:|:--:|:--:|
 |前兩張align結果|<img src="./img/orb_a.png">|<img src="./img/sift_a.png">|<img src="./img/surf_a.png">|
 |觀察|是三者中黑邊最少的，也就是prespective兩張旋轉最少的。|像是以左邊的邊為旋轉軸，向畫面內旋轉。|像是以最上面的邊為旋轉軸，向畫面內旋轉。|
-|沒處理|<img src="https://drive.google.com/uc?id=1-2fXbkWsF2WyoK8926mPrLkug9jSmjvN" width="400"/>|<img src="https://drive.google.com/uc?id=1-3ncAtcurDHl9__NOkEnHvyxBQFJRxHj" width="400"/>|<img src="https://drive.google.com/uc?id=1-5d-5mHxlUSDdLCxfXel1Xlt8tAl8Vcr" width="400"/>|
-|有edge enhence & blur|<img src="https://drive.google.com/uc?id=1--2dBB7Cvd3k5nZwwgCnlZjy21S7bYD_" width="400"/>|<img src="https://drive.google.com/uc?id=1-0Lvyi_LK3rqm24HOr2WVc8NJY1OwWvh" width="400"/>|<img src="https://drive.google.com/uc?id=1-2ZLUKKeEgWFCI_1KTlM0kTVMMJa1SqC" width="400"/>|
+|全部都align結果|<img src="https://drive.google.com/uc?id=1-2fXbkWsF2WyoK8926mPrLkug9jSmjvN" width="400"/>|<img src="https://drive.google.com/uc?id=1-3ncAtcurDHl9__NOkEnHvyxBQFJRxHj" width="400"/>|<img src="https://drive.google.com/uc?id=1-5d-5mHxlUSDdLCxfXel1Xlt8tAl8Vcr" width="400"/>|
+|Align過程中有edge enhence & blur|<img src="https://drive.google.com/uc?id=1--2dBB7Cvd3k5nZwwgCnlZjy21S7bYD_" width="400"/>|<img src="https://drive.google.com/uc?id=1-0Lvyi_LK3rqm24HOr2WVc8NJY1OwWvh" width="400"/>|<img src="https://drive.google.com/uc?id=1-2ZLUKKeEgWFCI_1KTlM0kTVMMJa1SqC" width="400"/>|
 
 ## Zoom in effect 
 
