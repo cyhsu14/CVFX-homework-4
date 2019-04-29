@@ -67,7 +67,7 @@ Image Alignment的流程如下：
 
 <a href="https://youtu.be/DPRwJzxvCIc"> 影片連結 </a>
 
-## Zoom in effect 
+## Add some image processing to enhance effect
 
 ### SURF with edge enhence and blur
 
