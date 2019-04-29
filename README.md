@@ -53,7 +53,7 @@ Image Alignment的流程如下：
 2. 將img1套上mask使它在所有changed_img對應的地方都變成零(黑色)。(使用bitwise_and)  
 3. 將img1和changed_img做OR運算，即可正確合併兩張圖。
 
-#### 結果與比較
+### 結果與比較
 |項目|orb|sift|surf|
 |:--:|:--:|:--:|:--:|
 |前兩張align結果|<img src="./img/orb_a.png">|<img src="./img/sift_a.png">|<img src="./img/surf_a.png">|
@@ -62,17 +62,17 @@ Image Alignment的流程如下：
 |Align過程中有edge enhence & blur|<img src="https://drive.google.com/uc?id=1--2dBB7Cvd3k5nZwwgCnlZjy21S7bYD_" width="400"/>|<img src="https://drive.google.com/uc?id=1-0Lvyi_LK3rqm24HOr2WVc8NJY1OwWvh" width="400"/>|<img src="https://drive.google.com/uc?id=1-2ZLUKKeEgWFCI_1KTlM0kTVMMJa1SqC" width="400"/>|
 
 
-## Add some image processing to enhance effect. 
+## Zoom in effect 
 
-#### SURF
+### SURF
 
 <a href="https://youtu.be/DPRwJzxvCIc"> 影片連結 </a>
 
-#### SURF with edge enhence and blur
+### SURF with edge enhence and blur
 
 <a href="https://youtu.be/aJSYeOXAsHQ"> 影片連結 </a>
 
-#### 完全使用Photoshop人工製作
+### 完全使用Photoshop人工製作
 
 總共使用七張連續的圖片，以對齊馬路上兩條紅線為主要目標，將每張圖都設為前一張長寬的0.7~0.8倍，而除了修改圖片的亮度與對比外，還將圖片間銜接處用羽化處理使接點較不明顯。
 
