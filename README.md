@@ -63,12 +63,13 @@ Image Alignment的流程如下：
 |全部align後疊合|<img src="https://drive.google.com/uc?id=1-2fXbkWsF2WyoK8926mPrLkug9jSmjvN" width="400"/>|<img src="https://drive.google.com/uc?id=1-3ncAtcurDHl9__NOkEnHvyxBQFJRxHj" width="400"/>|<img src="https://drive.google.com/uc?id=1-5d-5mHxlUSDdLCxfXel1Xlt8tAl8Vcr" width="400"/>|
 |Align過程中有edge enhence & blur|<img src="https://drive.google.com/uc?id=1--2dBB7Cvd3k5nZwwgCnlZjy21S7bYD_" width="400"/>|<img src="https://drive.google.com/uc?id=1-0Lvyi_LK3rqm24HOr2WVc8NJY1OwWvh" width="400"/>|<img src="https://drive.google.com/uc?id=1-2ZLUKKeEgWFCI_1KTlM0kTVMMJa1SqC" width="400"/>|
 
+### generate infinite zooming effect
 
-## Zoom in effect 
-
-### SURF
+#### 使用SURF的結果
 
 <a href="https://youtu.be/DPRwJzxvCIc"> 影片連結 </a>
+
+## Add some image processing to enhance effect
 
 ### SURF with edge enhence and blur
 
