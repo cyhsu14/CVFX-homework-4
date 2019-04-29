@@ -7,7 +7,7 @@ Homework 4 for CVFX, team 7.
 
 在這些照片中，因為我們的色調還滿一致的，所以問題比較少；主要是在align的時候，因為樹與路的邊會變形，導致出來的結果會不一致、不自然，所以我們先用edge enhence增加邊的辨識度，再用blur來稍微消除這些痕跡。
 
-最後，除了使用python疊圖，我們也有用photoshop做在這我們就可以對每一張照片手動調整光線色調，圖與圖的縫隙就會比較少。
+最後，除了使用python疊圖，我們也有嘗試用photoshop做，就可以對每一張照片手動調整光線色調，圖與圖的縫隙就會比較少。
 
 ## Taking a Sequence of Moving-forward Photo in NTHU campus
 
